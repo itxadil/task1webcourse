@@ -1,0 +1,46 @@
+.main_div{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+#headerimg{
+   height: 500px;
+   width: 100%;
+   display:block;
+   margin: auto;
+}
+.headertext{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 780px;
+}
+.globaldiv{
+  position: relative;
+  display: inline;
+}
+.profilepic{
+  
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  display: block;
+  margin: auto;
+  position: absolute;
+  margin-top: -50px;
+  right: 47%;
+  border: 1px solid white;
+}
+.profileinfo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: underline; }
+a:active { text-decoration: none; }
